@@ -22,11 +22,13 @@ html {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Cairo', sans-serif;
   background-color: var(--white);
   color: var(--text-dark);
-  line-height: 1.6;
+  line-height: 1.8;
   overflow-x: hidden;
+  direction: rtl;
+  text-align: right;
 }
 
 .container {
@@ -257,11 +259,11 @@ body {
 }
 
 .service-content.reverse {
-  direction: rtl;
+  direction: ltr;
 }
 
 .service-content.reverse > * {
-  direction: ltr;
+  direction: rtl;
 }
 
 .service-image {
@@ -302,6 +304,20 @@ body {
 
 .courses-bg {
   background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+}
+
+.service-img {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: var(--shadow-lg);
+  transition: transform 0.3s ease;
+  object-fit: cover;
+}
+
+.service-img:hover {
+  transform: scale(1.05);
 }
 
 .service-details h3 {
@@ -522,7 +538,7 @@ body {
   }
 
   .service-content.reverse {
-    direction: ltr;
+    direction: rtl;
   }
 
   .section-title {

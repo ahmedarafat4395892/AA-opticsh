@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nexton-X | Digital Solutions & Training</title>
+  <title>Nexton-X | الحلول الرقمية والتدريب</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
   <script src="./sraipt.js" defer></script>
 </head>
@@ -18,10 +18,12 @@
         <span class="logo-text">Nexton-X</span>
       </div>
       <ul class="nav-menu">
-        <li><a href="#home" class="nav-link active">Home</a></li>
-        <li><a href="#digital-marketing" class="nav-link">Digital Marketing</a></li>
-        <li><a href="#programming" class="nav-link">Programming</a></li>
-        <li><a href="#courses" class="nav-link">Courses</a></li>
+        <li><a href="#home" class="nav-link active">الرئيسية</a></li>
+        <li><a href="#digital-marketing" class="nav-link">التسويق الرقمي</a></li>
+        <li><a href="#programming" class="nav-link">البرمجة</a></li>
+        <li><a href="#languages" class="nav-link">اللغات</a></li>
+        <li><a href="#management" class="nav-link">الإدارة</a></li>
+        <li><a href="#courses" class="nav-link">الدورات</a></li>
       </ul>
       <div class="hamburger">
         <span></span>
@@ -34,10 +36,10 @@
   <!-- Hero Section -->
   <section id="home" class="hero">
     <div class="hero-content">
-      <h1 class="hero-title fade-in">Welcome to <span class="highlight">Nexton-X</span></h1>
-      <p class="hero-subtitle fade-in">Your Partner in Digital Transformation</p>
-      <p class="hero-description fade-in">We provide cutting-edge solutions in Digital Marketing, Web Development, and Professional Training to help your business thrive in the digital age.</p>
-      <a href="#digital-marketing" class="cta-button fade-in">Explore Our Services</a>
+      <h1 class="hero-title fade-in">مرحباً بك في <span class="highlight">Nexton-X</span></h1>
+      <p class="hero-subtitle fade-in">شريكك في التحول الرقمي</p>
+      <p class="hero-description fade-in">نقدم حلولاً متطورة في التسويق الرقمي، تطوير الويب، والتدريب المهني لمساعدة عملك على النجاح في العصر الرقمي.</p>
+      <a href="#digital-marketing" class="cta-button fade-in">استكشف خدماتنا</a>
     </div>
     <div class="hero-decoration">
       <div class="floating-circle circle-1"></div>
@@ -50,28 +52,24 @@
   <section id="digital-marketing" class="service-section">
     <div class="container">
       <div class="section-header">
-        <h2 class="section-title scroll-animate">Digital Marketing</h2>
-        <p class="section-subtitle scroll-animate">Grow Your Brand Online</p>
+        <h2 class="section-title scroll-animate">التسويق الرقمي</h2>
+        <p class="section-subtitle scroll-animate">نمِّ علامتك التجارية على الإنترنت</p>
       </div>
       <div class="service-content">
         <div class="service-image scroll-animate">
-          <div class="image-placeholder marketing-bg">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-            </svg>
-          </div>
+          <img src="./img/1.png" alt="التسويق الرقمي" class="service-img">
         </div>
         <div class="service-details scroll-animate">
-          <h3>Boost Your Digital Presence</h3>
-          <p>Our digital marketing experts help you reach your target audience effectively through strategic campaigns and data-driven insights.</p>
+          <h3>عزز حضورك الرقمي</h3>
+          <p>يساعدك خبراء التسويق الرقمي لدينا في الوصول إلى جمهورك المستهدف بفعالية من خلال حملات استراتيجية ورؤى مدعومة بالبيانات.</p>
           <ul class="service-features">
-            <li><span class="check-icon">✓</span> Social Media Management</li>
-            <li><span class="check-icon">✓</span> SEO & Content Marketing</li>
-            <li><span class="check-icon">✓</span> PPC Advertising Campaigns</li>
-            <li><span class="check-icon">✓</span> Email Marketing Automation</li>
-            <li><span class="check-icon">✓</span> Analytics & Performance Tracking</li>
+            <li><span class="check-icon">✓</span> إدارة وسائل التواصل الاجتماعي</li>
+            <li><span class="check-icon">✓</span> تحسين محركات البحث والتسويق بالمحتوى</li>
+            <li><span class="check-icon">✓</span> حملات الإعلانات المدفوعة</li>
+            <li><span class="check-icon">✓</span> أتمتة التسويق عبر البريد الإلكتروني</li>
+            <li><span class="check-icon">✓</span> التحليلات وتتبع الأداء</li>
           </ul>
-          <button class="service-button">Learn More</button>
+          <button class="service-button">اعرف المزيد</button>
         </div>
       </div>
     </div>
@@ -81,29 +79,78 @@
   <section id="programming" class="service-section alt-bg">
     <div class="container">
       <div class="section-header">
-        <h2 class="section-title scroll-animate">Programming & Web Development</h2>
-        <p class="section-subtitle scroll-animate">Build Your Digital Future</p>
+        <h2 class="section-title scroll-animate">البرمجة وتطوير الويب</h2>
+        <p class="section-subtitle scroll-animate">ابنِ مستقبلك الرقمي</p>
       </div>
       <div class="service-content reverse">
         <div class="service-details scroll-animate">
-          <h3>Custom Solutions for Your Business</h3>
-          <p>We create powerful, scalable web applications and software solutions tailored to your specific business needs using the latest technologies.</p>
+          <h3>حلول مخصصة لعملك</h3>
+          <p>نقوم بإنشاء تطبيقات ويب قوية وقابلة للتطوير وحلول برمجية مصممة خصيصاً لتلبية احتياجات عملك باستخدام أحدث التقنيات.</p>
           <ul class="service-features">
-            <li><span class="check-icon">✓</span> Custom Web Applications</li>
-            <li><span class="check-icon">✓</span> E-commerce Solutions</li>
-            <li><span class="check-icon">✓</span> Mobile App Development</li>
-            <li><span class="check-icon">✓</span> API Integration & Development</li>
-            <li><span class="check-icon">✓</span> Maintenance & Support</li>
+            <li><span class="check-icon">✓</span> تطبيقات ويب مخصصة</li>
+            <li><span class="check-icon">✓</span> حلول التجارة الإلكترونية</li>
+            <li><span class="check-icon">✓</span> تطوير تطبيقات الجوال</li>
+            <li><span class="check-icon">✓</span> تطوير وتكامل واجهات برمجة التطبيقات</li>
+            <li><span class="check-icon">✓</span> الصيانة والدعم الفني</li>
           </ul>
-          <button class="service-button">Learn More</button>
+          <button class="service-button">اعرف المزيد</button>
         </div>
         <div class="service-image scroll-animate">
-          <div class="image-placeholder programming-bg">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <polyline points="16 18 22 12 16 6"></polyline>
-              <polyline points="8 6 2 12 8 18"></polyline>
-            </svg>
-          </div>
+          <img src="./img/2.jpg" alt="البرمجة" class="service-img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Languages Section -->
+  <section id="languages" class="service-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title scroll-animate">تعلم اللغات</h2>
+        <p class="section-subtitle scroll-animate">افتح آفاقاً جديدة</p>
+      </div>
+      <div class="service-content">
+        <div class="service-image scroll-animate">
+          <img src="./img/title.jpg" alt="تعلم اللغات" class="service-img">
+        </div>
+        <div class="service-details scroll-animate">
+          <h3>دورات لغات احترافية</h3>
+          <p>نقدم برامج تعليمية متكاملة لتعلم اللغات العالمية مع مدربين متخصصين ومناهج حديثة تساعدك على إتقان اللغة بسرعة وفعالية.</p>
+          <ul class="service-features">
+            <li><span class="check-icon">✓</span> اللغة الإنجليزية (جميع المستويات)</li>
+            <li><span class="check-icon">✓</span> اللغة الفرنسية</li>
+            <li><span class="check-icon">✓</span> اللغة الألمانية</li>
+            <li><span class="check-icon">✓</span> اللغة الإسبانية</li>
+            <li><span class="check-icon">✓</span> دورات تحضيرية لاختبارات IELTS و TOEFL</li>
+          </ul>
+          <button class="service-button">اعرف المزيد</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Management Section -->
+  <section id="management" class="service-section alt-bg">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title scroll-animate">الإدارة وتطوير الأعمال</h2>
+        <p class="section-subtitle scroll-animate">قُد فريقك نحو النجاح</p>
+      </div>
+      <div class="service-content reverse">
+        <div class="service-details scroll-animate">
+          <h3>برامج تدريبية إدارية متقدمة</h3>
+          <p>نوفر برامج تدريبية شاملة في الإدارة وتطوير الأعمال لتعزيز مهارات القيادة والإدارة لدى فريقك وتحقيق أهداف مؤسستك.</p>
+          <ul class="service-features">
+            <li><span class="check-icon">✓</span> إدارة المشاريع الاحترافية (PMP)</li>
+            <li><span class="check-icon">✓</span> القيادة وإدارة الفرق</li>
+            <li><span class="check-icon">✓</span> التخطيط الاستراتيجي</li>
+            <li><span class="check-icon">✓</span> إدارة الموارد البشرية</li>
+            <li><span class="check-icon">✓</span> ريادة الأعمال وتطوير الأعمال</li>
+          </ul>
+          <button class="service-button">اعرف المزيد</button>
+        </div>
+        <div class="service-image scroll-animate">
+          <img src="./img/1.png" alt="الإدارة" class="service-img">
         </div>
       </div>
     </div>
@@ -113,29 +160,24 @@
   <section id="courses" class="service-section">
     <div class="container">
       <div class="section-header">
-        <h2 class="section-title scroll-animate">Courses & Training</h2>
-        <p class="section-subtitle scroll-animate">Invest in Your Skills</p>
+        <h2 class="section-title scroll-animate">الدورات التدريبية</h2>
+        <p class="section-subtitle scroll-animate">استثمر في مهاراتك</p>
       </div>
       <div class="service-content">
         <div class="service-image scroll-animate">
-          <div class="image-placeholder courses-bg">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
-              <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
-            </svg>
-          </div>
+          <img src="./img/2.jpg" alt="الدورات التدريبية" class="service-img">
         </div>
         <div class="service-details scroll-animate">
-          <h3>Professional Training Programs</h3>
-          <p>Enhance your team's capabilities with our comprehensive training programs designed by industry experts to keep you ahead of the curve.</p>
+          <h3>برامج تدريبية احترافية</h3>
+          <p>عزز قدرات فريقك من خلال برامجنا التدريبية الشاملة المصممة من قبل خبراء الصناعة لتبقى في المقدمة دائماً.</p>
           <ul class="service-features">
-            <li><span class="check-icon">✓</span> Digital Marketing Courses</li>
-            <li><span class="check-icon">✓</span> Web Development Bootcamps</li>
-            <li><span class="check-icon">✓</span> Programming Fundamentals</li>
-            <li><span class="check-icon">✓</span> Corporate Training Programs</li>
-            <li><span class="check-icon">✓</span> Certification Preparation</li>
+            <li><span class="check-icon">✓</span> دورات التسويق الرقمي</li>
+            <li><span class="check-icon">✓</span> معسكرات تطوير الويب</li>
+            <li><span class="check-icon">✓</span> أساسيات البرمجة</li>
+            <li><span class="check-icon">✓</span> برامج التدريب المؤسسي</li>
+            <li><span class="check-icon">✓</span> التحضير للشهادات المهنية</li>
           </ul>
-          <button class="service-button">Learn More</button>
+          <button class="service-button">اعرف المزيد</button>
         </div>
       </div>
     </div>
@@ -147,25 +189,27 @@
       <div class="footer-content">
         <div class="footer-section">
           <h3>Nexton-X</h3>
-          <p>Empowering businesses through digital innovation and professional training.</p>
+          <p>نمكّن الشركات من خلال الابتكار الرقمي والتدريب المهني.</p>
         </div>
         <div class="footer-section">
-          <h4>Quick Links</h4>
+          <h4>روابط سريعة</h4>
           <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#digital-marketing">Digital Marketing</a></li>
-            <li><a href="#programming">Programming</a></li>
-            <li><a href="#courses">Courses</a></li>
+            <li><a href="#home">الرئيسية</a></li>
+            <li><a href="#digital-marketing">التسويق الرقمي</a></li>
+            <li><a href="#programming">البرمجة</a></li>
+            <li><a href="#languages">اللغات</a></li>
+            <li><a href="#management">الإدارة</a></li>
+            <li><a href="#courses">الدورات</a></li>
           </ul>
         </div>
         <div class="footer-section">
-          <h4>Contact Us</h4>
-          <p>Email: info@nexton-x.com</p>
-          <p>Phone: +1 (555) 123-4567</p>
+          <h4>تواصل معنا</h4>
+          <p>البريد الإلكتروني: info@nexton-x.com</p>
+          <p>الهاتف: +966 50 123 4567</p>
         </div>
       </div>
       <div class="footer-bottom">
-        <p>&copy; 2025 Nexton-X. All rights reserved.</p>
+        <p>&copy; 2025 Nexton-X. جميع الحقوق محفوظة.</p>
       </div>
     </div>
   </footer>

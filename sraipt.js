@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const sectionTitle = section.querySelector('.section-title').textContent;
       
       // Create a simple alert for demonstration
-      alert(`Thank you for your interest in ${sectionTitle}! We'll be in touch soon.`);
+      alert(`شكراً لاهتمامك بـ ${sectionTitle}! سنتواصل معك قريباً.`);
       
       // In a real application, this would open a contact form or redirect to a details page
     });
